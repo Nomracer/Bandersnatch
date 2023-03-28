@@ -16,7 +16,7 @@ var buttonWrapper = document.getElementById("button-wrapper");
 		});
 
 		buttonWrapper.addEventListener("click", function() {
-			video.currentTime = 15;
+			video.currentTime = 210;
 		});
 
 	//	button1.addEventListener("click", function() {
