@@ -1,6 +1,6 @@
 var buttonWrapper = document.getElementById("button-wrapper");
-		var button1 = document.getElementById("button1");
-		var video = document.getElementById("video");
+var button1 = document.getElementById("button1");
+var video = document.getElementById("video");
 
 		video.addEventListener("play", function() {
 			setTimeout(function() {
@@ -8,14 +8,14 @@ var buttonWrapper = document.getElementById("button-wrapper");
 			}, 3000);
 		});
 
-		buttonWrapper.addEventListener("click", function() {
+		button1.addEventListener("click", function() {
 			buttonWrapper.style.opacity = 0;
 			setTimeout(function() {
 				buttonWrapper.style.display = "none";
 			}, 500);
 		});
 
-		buttonWrapper.addEventListener("click", function() {
+		button1.addEventListener("click", function() {
 			video.currentTime = 210;
 		});
 
