@@ -38,11 +38,10 @@ div[class*=box] {
   right: 0;
   text-align: center;
   outline: none;
-  border: none;
   background: none;
   text-decoration: underline;
   cursor: pointer;
-  margin-bottom: 10px;
+  margin-bottom: 70px;
   transition: color 0.3s ease-in-out;
 
 }
