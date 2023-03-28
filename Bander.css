@@ -40,7 +40,7 @@ div[class*=box] {
   outline: none;
   background: none;
   text-decoration: underline;
-  cursor: pointer;
+  cursor:  default;
   margin-bottom: 70px;
   transition: color 0.3s ease-in-out;
 
