@@ -1,5 +1,6 @@
 var buttonWrapper = document.getElementById("button-wrapper");
 var button1 = document.getElementById("button1");
+var button2 = document.getElementById("button2");
 var video = document.getElementById("video");
 
 		video.addEventListener("play", function() {
@@ -7,7 +8,7 @@ var video = document.getElementById("video");
 				button1.style.opacity = 1;
 			}, 5000);
 		});
-
+	
 		button1.addEventListener("click", function() {
 			button1.style.opacity = 0;
 			setTimeout(function() {
@@ -19,17 +20,11 @@ var video = document.getElementById("video");
 			video.currentTime = 210;
 		});
 
+		//button2.addEventListener("click", function(){
+		//	video.currentTime = 120;
+		//});
+
 		button1.style.opacity = 0;
 		setTimeout(function() {
 			button1.style.opacity = 1;
 		}, 5000);
-
-	//	button1.addEventListener("click", function() {
-		//	video.src = "soldrib.mp4";
-		//	video.play();
-		//	buttonWrapper.style.opacity = 0;
-		//	setTimeout(function() {
-	//			buttonWrapper.style.display = "none";
-	//		}, 500);
-	//	});
-		
